@@ -34,6 +34,7 @@ body {
   padding-top: 2rem;
   display: flex;
   background-color: transparent;
+  overflow: hidden;
 }
 
 .header__logo {
@@ -50,7 +51,7 @@ body {
 }
 
 .icons__link {
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 .shopcart {
@@ -61,6 +62,7 @@ body {
 .shop__icon {
   width: 2rem;
   height: 2rem;
+  margin-right: 2rem;
 }
 
 .shop__notification {
@@ -75,7 +77,7 @@ body {
   align-items: center;
   position: absolute;
   top: -12%;
-  left: 35%;
+  left: 15%;
 }
 
 
@@ -86,9 +88,11 @@ body {
 }
 
 
+
 .header__item a {
   text-decoration: none;
   color: #000;
+  margin-right: 1rem;
 }
 
 .intro__content {
